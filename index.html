@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- May I offer you an egg in these trying times? -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='styles.css'>
+
+  <!-- FONT LINKS  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  
+  <title>Artem Gervets</title>
+</head> 
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="custom-nav-style navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutAnchor">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projectAnchor">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactAnchor">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <button class="header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Download Resume</button>
+  </nav>
+
+
+  <!-- HEADER/HERO SECTION -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Artem </h1>
+      <h1 class="last-name display-4">Gervets</h1>
+      <p class="lead">Dev Webeloper
+        <p class="resume-button">
+          <div id="aboutAnchor"></div>
+         
+        </p>
+      </p>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+ 
+  <section id="about">
+    <div class="container">
+      <h2 class="display-3">About me</h2>
+      <div class="row">
+        <div class="col-sm-2">
+          <img class="portrait" src="./assets/portrait.png" alt="headshot portrait" >
+        </div>
+ 
+        <div class="col-sm-4">
+          <div class="section-headers display-2">Bio</div>
+          Hello! I am a dev webeloper.  Creating is my favorite thing to do. Outside of technology, I like to paint and play music. I also enjoy reading, Netflix-binging, and hiking. 
+        </div>
+
+        <div class="col-sm-6">
+          <div class="section-headers display-2">Skills</div> 
+            <p><strong>Web develeopment:</strong> React, Javascript, SQL, HTML, CSS</p>
+            <p><strong>Information technology:</strong> Kali Linux, Basic CyberSecurity, Vulnerability Management, Enterprise Security </p>
+            <p><strong>Design:</strong> Figma, Adobe Photoshop</p>
+            <p><strong>People:</strong> Empathy, Listening, Honesty</p>
+            <p><strong>Languages in order of fluency:</strong> English, Russian, German, Spanish</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="projectAnchor"></div>
+
+  </section>
+  <hr>
+
+  <!-- PROJECTS  -->
+
+  <section id="about">
+    <div class="container">
+      <h2 class="display-3">Projects</h2>
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/static-site.png" style="height: 52px; width: 52px;">Static Layout Application</h5>
+          <p>Copied a website's look and layout from scratch to practice basic styling. </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="static-layout projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+      
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/css-portrait.png" style="height: 52px; width: 52px;">CSS Self Portrait</h5>
+          <p>A fun project to create a self portrait of myself using CSS and a psychadelic background. </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="self-portrait projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/api-project-1.png" style="height: 52px; width: 52px;">API Project #1</h5>
+          <p> A way to practice fetch and DOM manipulation using an API. This one is a recipe search which allows returns a simple list of ingredients and link to the original content. Pagination not implemented due to 5 request/min limit from API. </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="api-project1 projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/api-project-1.png" style="height: 52px; width: 52px;">API Project #2</h5>
+          <p>Comming soon! </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+
+
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/blue-badge.png" style="height: 52px; width: 52px;">Blue Badge Project</h5>
+          <p>Comming soon! </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-9">
+          
+          <h5> <img src="./assets/red-badge.png" style="height: 52px; width: 52px;">Red Badge Project</h5>
+          <p>Comming soon! </p>
+        </div>
+        
+        <div class="mclink col-sm-3">
+          <button class="projects-button header-resume resume-button btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+        </div>
+        <br>
+          
+      </div>
+      <hr>
+
+
+
+
+     </div> <!--end container class -->
+    <br>
+    <br>
+    <br>
+    <div id="contactAnchor"></div>
+    <hr>
+    
+  </section>
+
+  <!-- CONTACT FORM  -->
+
+  <section id="about">
+    <div class="container">
+      <h2 class="display-3">Contact Me</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          
+          <form action="https://formspree.io/f/mleowdkl" method="POST">
+            <div class="section-headers display-2">Send a message</div>
+            <div class="form-group">
+            
+              <input class="form-control" id="exampleFormControlInput1" placeholder="Your Name" type="text" name="name">
+            </div>
+
+            <div class="form-group">
+
+              <input class="form-control" id="exampleFormControlInput1" placeholder="Your email" type="email" name="_replyto">
+            </div>
+            <!-- message -->
+            <div class="form-group">
+              
+              <textarea placeholder="Your message" class="form-control" id="exampleFormControlTextarea1" rows="3" type="text" name="name"></textarea>
+            </div>
+            <button type="submit" class=" projects-button header-resume resume-button btn btn-primary" value="Send">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-sm-1">
+       
+        </div>
+
+ 
+        <div class="col-sm-5">
+          <div class="section-headers display-2">Links</div>
+            <ul class="github-links">
+              <li><a href="https://github.com/artemsgithub" target="_blank"><img style="padding-right: 1rem;" src="./assets/github.svg ">Github</a></li>
+              <li><a href="./assets/Resume.pdf" target="_blank"><img style="padding-right: 1rem;" src="./assets/file-text.svg">Download Resume</a></li>
+            </ul>
+        </div>
+      
+        <div class="col-sm-1">
+       
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+  </section>
+  <hr>
+
+  <!-- FOOTER -->
+
+  <div class="footer jumbotron">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-sm-4">
+
+        </div>
+        <div class="artem-img col-sm-4">
+          <img src="./assets/artem.svg" alt="blank stare artem caricature style logo" class="artem">
+          <p class="footer-text">Created with <img class="coffee-icon" src="./assets/espresso.svg" alt="coffee mug icon"> by Artem Gervets in overcast Indy.</p>
+        </div>
+        <div class="col-sm-4">
+        </div>
+      </div>
+
+
+      <div class="row"> 
+        
+      
+
+  
+     
+      </div>
+
+      
+    </div>
+  </div>
+  <p class="credits footer-text">Background nature image created by <a href="https://unsplash.com/@spencerdavis">Spencer Davis at Unsplash.</a> | Coffee heart icon by Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> </p>
+
+
+
+  <!-- BOOTSTRAP SCRIPTS -->
+
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
